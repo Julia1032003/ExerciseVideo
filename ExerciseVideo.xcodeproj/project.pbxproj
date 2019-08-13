@@ -13,6 +13,9 @@
 		E1EE2B3623026AD500DF9AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EE2B3423026AD500DF9AFB /* Main.storyboard */; };
 		E1EE2B3823026AD700DF9AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EE2B3723026AD700DF9AFB /* Assets.xcassets */; };
 		E1EE2B3B23026AD700DF9AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EE2B3923026AD700DF9AFB /* LaunchScreen.storyboard */; };
+		E1EE2B4323026D8C00DF9AFB /* ExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE2B4223026D8C00DF9AFB /* ExerciseTableViewController.swift */; };
+		E1EE2B4523026DBE00DF9AFB /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE2B4423026DBE00DF9AFB /* Exercise.swift */; };
+		E1EE2B4723026E0E00DF9AFB /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE2B4623026E0E00DF9AFB /* ExerciseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E1EE2B3723026AD700DF9AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1EE2B3A23026AD700DF9AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1EE2B3C23026AD700DF9AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EE2B4223026D8C00DF9AFB /* ExerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewController.swift; sourceTree = "<group>"; };
+		E1EE2B4423026DBE00DF9AFB /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		E1EE2B4623026E0E00DF9AFB /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				E1EE2B3023026AD500DF9AFB /* SceneDelegate.swift */,
 				E1EE2B3223026AD500DF9AFB /* ViewController.swift */,
 				E1EE2B3423026AD500DF9AFB /* Main.storyboard */,
+				E1EE2B4223026D8C00DF9AFB /* ExerciseTableViewController.swift */,
+				E1EE2B4623026E0E00DF9AFB /* ExerciseTableViewCell.swift */,
+				E1EE2B4423026DBE00DF9AFB /* Exercise.swift */,
 				E1EE2B3723026AD700DF9AFB /* Assets.xcassets */,
 				E1EE2B3923026AD700DF9AFB /* LaunchScreen.storyboard */,
 				E1EE2B3C23026AD700DF9AFB /* Info.plist */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EE2B4523026DBE00DF9AFB /* Exercise.swift in Sources */,
 				E1EE2B3323026AD500DF9AFB /* ViewController.swift in Sources */,
+				E1EE2B4323026D8C00DF9AFB /* ExerciseTableViewController.swift in Sources */,
+				E1EE2B4723026E0E00DF9AFB /* ExerciseTableViewCell.swift in Sources */,
 				E1EE2B2F23026AD500DF9AFB /* AppDelegate.swift in Sources */,
 				E1EE2B3123026AD500DF9AFB /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-120.ExerciseVideo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-120.ExerciseVideo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
